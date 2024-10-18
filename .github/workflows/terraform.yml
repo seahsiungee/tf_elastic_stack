@@ -84,6 +84,9 @@ jobs:
         working-directory: ${{ matrix.directories }}
 
     steps:
+    - name: Tell me a secret!
+      run: echo "Check EC_API_KEY exists ${{ secrets.EC_API_KEY }}" 
+      
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v4
