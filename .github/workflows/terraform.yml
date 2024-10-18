@@ -52,6 +52,9 @@ on:
 permissions:
   contents: read
 
+env:
+  EC_API_KEY: ${{ secrets.EC_API_KEY }}
+
 jobs:
   # check which directories have been updated, later it output an array or switch which is then used in matrix strategy for terraform job
   directories:
