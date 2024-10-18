@@ -1,0 +1,7 @@
+# SAML Authentication Realm Configuration
+# xpack.security.authc.providers:
+#   saml.auth0:
+#     order: 1
+#     realm: auth0
+#     icon: logoSecurity
+#     description: "Log in with Auth0"

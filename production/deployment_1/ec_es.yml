@@ -1,0 +1,10 @@
+# SAML Authentication Realm Configuration
+# xpack.security.authc.realms.saml.auth0:
+#   order: 2
+#   idp.metadata.path: "https://"
+#   idp.entity_id: "urn:myproject.us.auth0.com"
+#   sp.entity_id:  "${kibana_url}/"
+#   sp.acs: "${kibana_url}/api/security/saml/callback"
+#   sp.logout: "${kibana_url}/logout"
+#   attributes.principal: "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"
+#   attributes.groups: "http://schemas.xmlsoap.org/claims/Group"
