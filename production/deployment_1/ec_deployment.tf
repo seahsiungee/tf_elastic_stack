@@ -52,6 +52,6 @@ output "elasticsearch_username" {
 }
 
 output "elasticsearch_password" {
-  value = ec_deployment.siu-terraform.elasticsearch_password
+  value     = ec_deployment.siu-terraform.elasticsearch_password
   sensitive = true
 }

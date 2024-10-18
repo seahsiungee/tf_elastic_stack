@@ -19,7 +19,7 @@ terraform {
       version = ">= 0.11.0"
     }
     elasticstack = {
-      source = "elastic/elasticstack"
+      source  = "elastic/elasticstack"
       version = ">= 0.11.7"
     }
   }
